@@ -18,10 +18,10 @@ nav {
 }
 
 .header-info {
-font-family: "Source Sans Pro", sans-serif;
-font-size: 16px;
-font-weight: 400;
-text-align: center;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  text-align: center;
 }
 
 .nav-list {
@@ -35,7 +35,7 @@ text-align: center;
 a {
   font-family: "Source Sans Pro", sans-serif;
   font-size: 18px;
-  font-weight: 400;
+  font-weight: 600;
   text-decoration: none;
   color: black;
   cursor: pointer;
@@ -77,4 +77,5 @@ li {
   font-family: "Source Sans Pro", sans-serif;
   font-size: 14px;
   font-weight: 400;
-  }
+  padding: 2px;
+}
