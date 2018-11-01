@@ -9,7 +9,7 @@
 
 <body>
   <nav id="navbar">
-    <header class="page-title">Python Tech Guide</header>
+    <header onmouseover="highlight(this)" onmouseout="unHighlight(this)" class="page-title">Python Tech Guide</header>
     <p class="header-info">A very brief intro into Python</p>
     <ul class="nav-list">
       <a class="nav-link" href="#Introduction">Introduction</a>
@@ -17,11 +17,12 @@
       <a class="nav-link" href="#Syntax">Syntax</a>
       <a class="nav-link" href="#Variables">Variables</a>
       <a class="nav-link" href="#Modules">Modules</a>
+      <a class="nav-link" href="#Media">Media</a>
     </ul>
   </nav>
   <main id="main-doc">
     <section class="main-section">
-      <header class="section-title" id="Introduction">Introduction</header>
+      <header onmouseover="highlight(this)" onmouseout="unHighlight(this)" class="section-title" id="Introduction">Introduction</header>
       <p>Python is an open source development project that allows a community of
         users and contributors to make their software available under open source
         license terms.</p>
@@ -31,8 +32,9 @@
       <p>This is a very brief intro into what Python is and how to interact with some of
         its features.</p>
     </section>
+    <div class="line-break"></div>
     <section class="main-section">
-      <header class="section-title" id="What_You_Should_Know">What You Should Know?</header>
+      <header onmouseover="highlight(this)" onmouseout="unHighlight(this)" class="section-title" id="What_You_Should_Know">What You Should Know?</header>
       <p>This guide assumes you have the following basic background:</p>
       <ul class="section-list">
         <li>A general understanding of the Internet and the World Wide Web (WWW).</li>
@@ -40,16 +42,18 @@
         <li>Some programming experience. If you are new to programming, try one of the tutorials linked on the main page about Python.</li>
       </ul>
     </section>
+    <div class="line-break"></div>
     <section class="main-section">
-      <header class="section-title" id="Syntax">Syntax</header>
+      <header onmouseover="highlight(this)" onmouseout="unHighlight(this)" class="section-title" id="Syntax">Syntax</header>
       <p>Here are a few examples of Python syntax that you may encounter when
         learning and writing in Python.</p>
       <p><code>x = 1</code></p>
       <p><code>if x = 1:</code></p>
       <p><code>print("x is 1.")</code></p>
     </section>
+    <div class="line-break"></div>
     <section class="main-section">
-      <header class="section-title" id="Variables">Variables</header>
+      <header onmouseover="highlight(this)" onmouseout="unHighlight(this)" class="section-title" id="Variables">Variables</header>
       <p>Python is able to use variables in a similar fashion to other programming
         languages. Here is an example:</p>
       <p><code>a = [1, 2, 3]</code></p>
@@ -59,8 +63,9 @@
       <p><code>print(a is b) #False</code></p>
       <p><code>print(a is c) #True</code></p>
     </section>
+    <div class="line-break"></div>
     <section class="main-section">
-      <header class="section-title" id="Modules">Modules</header>
+      <header onmouseover="highlight(this)" onmouseout="unHighlight(this)" class="section-title" id="Modules">Modules</header>
       <p>A module allows you to logically organize your Python code. Grouping
         related code into a module makes the code easier to understand and use.
         A module is a Python object with arbitrarily named attributes that you
@@ -68,6 +73,12 @@
       <p>Simply, a module is a file consisting of Python
         code. A module can define functions, classes and variables. A module can
         also include runnable code.</p>
+    </section>
+    <div class="line-break"></div>
+    <section class="main-section">
+      <header onmouseover="highlight(this)" onmouseout="unHighlight(this)" class="section-title" id="Media">Media</header>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/rfscVS0vtbw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope;
+      picture-in-picture" allowfullscreen></iframe>
     </section>
   </main>
   <script src="main.js"></script>
